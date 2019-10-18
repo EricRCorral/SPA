@@ -2,16 +2,9 @@
     padding-top: 25px;
 }
 
-.padding-bottom-heroe {
-    padding-bottom: 75px;
-}
-
-.padding-bottom-about {
-    padding-bottom: 410px;
-}
-
 .background {
     background: url(assets/img/background.jpg);
+    background-size: cover;
 }
 
 
