@@ -1,0 +1,10 @@
+<div class="card bg-transparent">
+    <img [src]="heroe.img" class="card-img-top" alt="Imagen del heroe">
+    <div class="card-body" class="animated fadeIn">
+        <h5 class="card-title">{{ heroe.nombre }}</h5>
+        <p class="card-text">{{ heroe.bio }}</p>
+        <p class="card-text"><small>{{ heroe.aparicion }}</small></p>
+
+        <button (click)="verHeroe()" type="button" class="btn btn-block btn-outline-light">Ver mas</button>
+    </div>
+</div>
